@@ -39,8 +39,8 @@ const lectureDetailsList = [
     },
     {
         name: "Сумаризација на сè што учевме досега",
-        videoUrl: "https://drive.google.com/uc?export=download&id=1DmnR-4Wmc2tCbxsYKt2yw136vv2qxnaw",
-        pdfMaterial: "lecture06.pdf"
+        videoUrl: "https://www.youtube.com/embed/W2J0hL2jNXA",
+        pdfMaterial: "https://drive.google.com/uc?export=download&id=1DmnR-4Wmc2tCbxsYKt2yw136vv2qxnaw"
     },
     {
         name: "Lists, Tuples & Sets",
