@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Ubuntu";
+}
+
+
+.nav-bar-container {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-image: linear-gradient(to right, #8e3f16, #8e5b16);
+    background-image: linear-gradient(to bottom, #a59f00, #2c6a23);
+    background-image: linear-gradient(to right, #0a4c80, #0077cc, #5d90b7);
+}
+
+/*#292929 #252425*/
+/*background-image: linear-gradient(to right, #b56128, #b57f28);
+    background-image: linear-gradient(to bottom, #c1b200, #347e2b);
+    background-image: linear-gradient(to right, #0f6fb2, #0092ff, #72a7d8);*/
+
+.nav-bar-container img {
+    max-width: 200px;
+    max-height: 90px;
+    margin-top: 5px;
+}
+
+.landing-container {
+    width: 100%;
+    height: auto;
+}
+
+.landing-container img {
+    max-width: 650px;
+    max-height: 400px;
+    transition: transform 0.7s;
+}
+
+.landing-container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+
+.two-column-container {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+hr {
+    width: 70px;
+    height: 5px;
+    background-color: #a59f00;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.text-content {
+    width: 30%;
+}
+
+.text-content h1, .wwwl-container h1, .startnow-container h1 {
+    text-transform: uppercase;
+}
+
+.text-content span, .wwwl-container span {
+    color: #0a4c80;
+}
+
+.text-content p {
+    font-size: 1.2rem;
+    color: black;
+    font-weight: 450;
+    margin-bottom: 15px;
+}
+
+.wwwl-container {
+    margin-top: 100px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.cards-container {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 7px;
+    text-align: center;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: transform 0.7s, background 0.7s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #0a4c80;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.startnow-container {
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    padding: 150px;
+    background-image: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.8)), url('../assets/startNow.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.startnow-container p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 200px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background-color: white;
+}
+
+
+@media screen and (max-width: 770px) {
+    .nav-bar-container {
+        height: 60px;
+    }
+    .nav-bar-container img {
+        height: 50px;
+    }
+    .two-column-container, .cards-container {
+        text-align: center;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .card {
+        margin: auto;
+    }
+    .text-content {
+        width: 70%;
+        margin: auto;
+    }
+    .text-content p {
+        text-align: justify;
+        font-size: 1rem;
+        margin-bottom: 8px;
+    }
+    hr {
+        margin: auto;
+    }
+    .landing-container img {
+        max-width: 300px;
+        max-height: 300px;
+    }
+    .startnow-container {
+        padding: 104px;
+        text-align: left;
+    }
+    .startnow-container p {
+        font-size: 1rem;
+    }
+  }
+

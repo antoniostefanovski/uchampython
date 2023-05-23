@@ -1,0 +1,179 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.about-navigation {
+    display: flex;
+}
+
+.title-header {
+    width: 100%;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finki-logo-container {
+    margin-top: 50px;
+    margin-right: 150px;
+}
+
+.finki-logo-container img {
+    max-width: 450px;
+    max-height: 300px;
+}
+
+.title-content-container {
+    width: 45%;
+    margin-left: 10px;
+}
+
+.title-content-container p {
+    text-align: justify;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.paragraph-text {
+    color: #0a4c80;
+}
+
+.theteam-header, .vision-scope {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.theteam-header hr {
+    width: 200px;
+    margin-left: 44%;
+}
+
+.vision-scope hr {
+    width: 150px;
+    margin-left: 46%;
+}
+
+.theteam-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.theteam-cards {
+    width: 350px;
+    height: 300px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background-color: #0a4c80;
+    border-radius: 2%;
+}
+
+.theteam-cards img {
+    width: 350px;
+    height: 223px;
+    object-fit: cover;
+    border-radius: 2%;
+}
+
+.theteam-cards p {
+    color: white;
+    margin-top: 5px;
+    font-size: 1.1rem;
+}
+
+.theteam-cards a {
+    text-decoration: none;
+    color: white;
+}
+
+.icon-contact {
+    font-size: 1.5rem;
+}
+
+.theteam-cards a:hover {
+    color: black;
+}
+
+.cards-container {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 7px;
+    text-align: center;
+    margin-right: 30px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    transition: transform 0.7s, background 0.7s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    background-color: #0a4c80;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    color: white;
+}
+
+.icon-card {
+    font-size: 2.3rem;
+}
+
+@media screen and (max-width: 770px) {
+    .title-header {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .title-content-container {
+        width: 100%;
+        margin-left: -70px;
+    }
+    .title-content-container p {
+        font-size: 0.9rem;
+    }
+    .finki-logo-container {
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .finki-logo-container img {
+        width: 210px;
+        height: 110px;
+    }
+    .theteam-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .theteam-header hr {
+        margin-left: 26%;
+    }
+    .theteam-header h1 {
+        font-size: 1.7rem;
+    }
+    .theteam-header {
+        margin-bottom: 20px;
+    }
+    .theteam-cards {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .cards-container {
+        text-align: center;
+        margin-top: 50px;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .card {
+        margin: auto;
+    }
+    .vision-scope hr {
+        margin-left: 33%;
+    }
+}

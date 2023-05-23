@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu";
+}
+
+.navbar-container {
+    width: 70px;
+    height: 700px;
+    background-image: linear-gradient(to right, #8e3f16, #8e5b16);
+    background-image: linear-gradient(to bottom, #a59f00, #2c6a23);
+    background-image: linear-gradient(to right, #0a4c80, #0077cc, #5d90b7);
+}
+
+.navbar-menu img {
+    padding-top: 10px;
+    padding-left: 8px;
+    max-width: 60px;
+    max-height: 60px;
+}
+
+.navbar-menu p:first-of-type {
+    font-size: 1.5rem;
+    padding-top: 215px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.navbar-menu p:last-of-type {
+    font-size: 1.5rem;
+    padding-left: 20px;
+    padding-top: 345px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.full-container {
+    display: flex;
+}
+
+
+.nav-links-container {
+    width: 120px;
+    background-image: linear-gradient(to right, #8e3f16, #8e5b16);
+    background-image: linear-gradient(to bottom, #a59f00, #2c6a23);
+    background-image: linear-gradient(to right, #0a4c80, #0077cc, #5d90b7);
+    border-left: 1px solid black;
+    opacity: 1;
+    transition: opacity 2.5s ease-out;
+    z-index: 1000;
+}
+
+.nav-links-hidden {
+    opacity: 0;
+    transition: opacity 1s ease-out; 
+}
+
+.nav-links {
+    margin-top: 230px;
+    list-style-type: none;
+}
+
+.nav-links li > * {
+    color: black;
+}
+
+.nav-links li > *:hover {
+    color: #d3cc00;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+li span {
+    margin-left: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+
+
+
