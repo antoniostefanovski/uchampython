@@ -10,7 +10,7 @@ const lectureDetailsList = [
     {
         name: "Како да работиме со Python",
         videoUrl: "https://www.youtube.com/embed/thFwAjmIJLw",
-        pdfMaterial: "https://drive.google.com/uc?export=download&id=1ZI7gZmCEto4Sv8KS4BgqCndnWAnMgEL4"
+        pdfMaterial: "https://drive.google.com/uc?export=download&id=1dnc8ZbUiyDsPz3102uHY2DaCtcRXZu6N"
     },
     {
         name: "Introduction (Запознавање со Python)",
@@ -24,53 +24,53 @@ const lectureDetailsList = [
     },
     {
         name: "Operators (Оператори)",
-        videoUrl: "https://www.youtube.com/embed/EgqUJOudrcM",
+        videoUrl: "https://www.youtube.com/embed/7UKijy_Vwms",
         pdfMaterial: "https://drive.google.com/uc?export=download&id=1sxBMiTDBUEX9koSo9hxRmGgv3QfakMEs"
     },
     {
         name: "Math Library",
-        videoUrl: "https://www.youtube.com/embed/EgqUJOudrcM",
+        videoUrl: "https://www.youtube.com/embed/9L_Mg-tDT7U",
         pdfMaterial: "https://drive.google.com/uc?export=download&id=1DlLHZFP1l8IKKf90CC4cRvELW-elB3Yt"
     },
     {
         name: "If..Else, While Loops, For Loops",
-        videoUrl: "https://www.youtube.com/embed/EgqUJOudrcM",
+        videoUrl: "https://www.youtube.com/embed/dI9nFP7s9-Y",
         pdfMaterial: "lecture05.pdf"
     },
     {
         name: "Сумаризација на сè што учевме досега",
-        videoUrl: "https://www.youtube.com/embed/EgqUJOudrcM",
+        videoUrl: "https://drive.google.com/uc?export=download&id=1DmnR-4Wmc2tCbxsYKt2yw136vv2qxnaw",
         pdfMaterial: "lecture06.pdf"
     },
     {
         name: "Lists, Tuples & Sets",
-        videoUrl: "https://www.youtube.com/embed/EgqUJOudrcM",
+        videoUrl: "https://www.youtube.com/embed/eK1rQ4UyYrw",
         pdfMaterial: "https://drive.google.com/uc?export=download&id=1mNq1QUVBVOMyMcZUnVO_e0_VDgZ2CK2e"
     },
     {
         name: "Arrays & 2D Arrays[Matrix] (Низи и матрици)",
-        videoUrl: "https://www.youtube.com/embed/EgqUJOudrcM",
+        videoUrl: "https://www.youtube.com/embed/McisxpklmdM",
         pdfMaterial: "https://drive.google.com/uc?export=download&id=1xqm0tNxlxzP12X_wN-p85c9SHWvdiYLi"
     },
     {
         name: "Functions (Функции)",
-        videoUrl: "https://www.youtube.com/embed/EgqUJOudrcM",
+        videoUrl: "https://www.youtube.com/embed/0-yrxOEn_M8",
         pdfMaterial: "https://drive.google.com/uc?export=download&id=15FZz1hG20itmiumODgrwoVZUbGH733kQ"
     },
     {
         name: "Classes & Objects (Класи и Објекти)",
-        videoUrl: "https://www.youtube.com/embed/EgqUJOudrcM",
+        videoUrl: "https://www.youtube.com/embed/RBy5_qL4pSw",
         pdfMaterial: "lecture10.pdf"
     },
     {
         name: "Classes & Objects 2 (Класи и Објекти 2)",
-        videoUrl: "https://www.youtube.com/embed/EgqUJOudrcM",
+        videoUrl: "https://www.youtube.com/embed/tKOUDChLiGI",
         pdfMaterial: "lecture11.pdf"
     },
     {
         name: "Сумаризација на сè што учевме досега",
-        videoUrl: "https://www.youtube.com/embed/EgqUJOudrcM",
-        pdfMaterial: "lecture12.pdf"
+        videoUrl: "https://www.youtube.com/embed/0jAl1CG0Zr0",
+        pdfMaterial: "https://drive.google.com/uc?export=download&id=1yGitxei-qwsqpD2K9BXBrrdBioX1ItH8"
     },
 ]
 
