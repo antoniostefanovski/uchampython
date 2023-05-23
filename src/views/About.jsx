@@ -10,7 +10,6 @@ import Ivan from '../assets/Ivan.jpg';
 import Teodora from '../assets/Teodora.png';
 import { AiFillLinkedin } from "react-icons/ai";
 import { FaInstagramSquare, FaGithubSquare, FaRegCheckCircle, FaPeopleArrows } from "react-icons/fa";
-GiProgression
 import { GiProgression } from "react-icons/gi";
 
 
