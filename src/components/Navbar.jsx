@@ -3,9 +3,6 @@ import '../styles/NavbarCSS.css'
 import logo from '../assets/logo.png';
 import { ImMenu, ImCross } from "react-icons/im";
 import { MdOutlineKeyboardReturn } from "react-icons/md";
-import { AiFillHome, AiFillCode } from "react-icons/ai";
-import { BsFillPeopleFill } from "react-icons/bs";
-import { RiComputerFill } from "react-icons/ri";
 import { Link, NavLink } from "react-router-dom";
 
 function Navbar () {
@@ -40,17 +37,11 @@ function Navbar () {
                                 <NavLink to={'/About'}><span>За нас</span></NavLink>
                             </li>
                             <li>
-                                {/* <NavLink to={'/'}><span>Компајлер</span></NavLink> */}
-                                <a href="https://www.w3schools.com/python/trypython.asp?filename=demo_compiler" target="_blank"><span>Компајлер</span></a>
+                                <NavLink to={'/Compiler'}><span>Компајлер</span></NavLink>
                             </li>
                         </ul>
                 </div>
             </div>
-            {/* <span><AiFillHome/></span> 
-                <span><RiComputerFill/></span>
-                <span><BsFillPeopleFill/></span>
-                <span><AiFillCode/></span>
-            */}
         </>
     )
 }

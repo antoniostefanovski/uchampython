@@ -33,7 +33,8 @@ function Footer () {
                                 <HashLink to={'/Lecture/0'}>Како да инсталирам PyCharm?</HashLink>
                             </li>
                             <li>
-                                <a href="https://www.w3schools.com/python/trypython.asp?filename=demo_compiler" target="_blank">Online Компајлер</a>
+                                <HashLink to={'/Compiler'}>Компајлер</HashLink>
+                                {/* <a href="https://www.w3schools.com/python/trypython.asp?filename=demo_compiler" target="_blank">Online Компајлер</a> */}
                             </li>
                         </ul>
                     </div>

@@ -3,7 +3,7 @@ import Navbar from './components/Navbar';
 import About from './views/About';
 import Lectures from './views/Lectures';
 import Lecture from './views/Lecture';
-import Compiler from './views/Compiler';
+import Compiler from './components/Compiler';
 import Home from './views/Home';
 import { Route, Routes } from 'react-router-dom';
 
