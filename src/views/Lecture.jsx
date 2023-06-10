@@ -35,7 +35,7 @@ const lectureDetailsList = [
     {
         name: "If..Else, While Loops, For Loops",
         videoUrl: "https://www.youtube.com/embed/dI9nFP7s9-Y",
-        pdfMaterial: "lecture05.pdf"
+        pdfMaterial: "https://drive.google.com/uc?export=download&id=1HFhVdPsVF48dr212Jvci-4-JMuStdDxn"
     },
     {
         name: "Сумаризација на сè што учевме досега",
@@ -60,12 +60,12 @@ const lectureDetailsList = [
     {
         name: "Classes & Objects (Класи и Објекти)",
         videoUrl: "https://www.youtube.com/embed/RBy5_qL4pSw",
-        pdfMaterial: "lecture10.pdf"
+        pdfMaterial: "https://drive.google.com/uc?export=download&id=1Pa_JGKMaO-BFK2CjgUNBd_RsHgRyVrxZ"
     },
     {
         name: "Classes & Objects 2 (Класи и Објекти 2)",
         videoUrl: "https://www.youtube.com/embed/tKOUDChLiGI",
-        pdfMaterial: "lecture11.pdf"
+        pdfMaterial: "https://drive.google.com/uc?export=download&id=1x9SAPstSvyXU9k9S-rsnDXjLPi61HhBA"
     },
     {
         name: "Сумаризација на сè што учевме досега",
