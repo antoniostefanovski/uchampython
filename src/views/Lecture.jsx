@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 import { styled } from '@mui/material/styles';
 import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
+import BackToTop from '../components/BackToTop';
 
 const lectureDetailsList = [
     {
@@ -114,6 +115,7 @@ function Lecture() {
                     <iframe width="800px" height="520px" src={state.lectureDetails.videoUrl} allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                     <p><a href={state.lectureDetails.pdfMaterial}><span className="icon"><AiFillFilePdf/></span>Дополнителни материјали</a></p>
                 </div>
+                <BackToTop/>
                 <Footer/>
             </div>
         </>

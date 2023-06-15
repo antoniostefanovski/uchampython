@@ -11,6 +11,7 @@ import Teodora from '../assets/Teodora.png';
 import { AiFillLinkedin } from "react-icons/ai";
 import { FaInstagramSquare, FaGithubSquare, FaRegCheckCircle, FaPeopleArrows } from "react-icons/fa";
 import { GiProgression } from "react-icons/gi";
+import BackToTop from "../components/BackToTop";
 
 
 function About () {
@@ -103,6 +104,7 @@ function About () {
                         <a href="raspored.pdf" download="Raspored Finki">Finki</a>
                     </div> */}
                 </div>
+                <BackToTop/>
                 <Footer/>
             </div>
         </>

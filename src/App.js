@@ -6,6 +6,7 @@ import Lecture from './views/Lecture';
 import Compiler from './components/Compiler';
 import Home from './views/Home';
 import { Route, Routes } from 'react-router-dom';
+import BackToTop from './components/BackToTop';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/Compiler" element={ <Compiler/> }/>
         <Route path="/Lectures" element={ <Lectures/> } /> 
         <Route path="/Lecture/:id" element={ <Lecture /> } /> 
+        <Route path="/BackToTop" element= { <BackToTop/> }/>
       </Routes>
   );
 }

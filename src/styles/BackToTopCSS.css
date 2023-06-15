@@ -1,0 +1,21 @@
+.bttbtn {
+    /* display: none; */
+    width: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 101;
+    border: none;
+    outline: none;
+    background-color: #0a4c80;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1.5rem;
+  }
+  
+  .bttbtn:hover {
+    background-color: #555;
+    color: white;
+  }

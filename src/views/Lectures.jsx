@@ -6,6 +6,7 @@ import { AiFillFilePdf } from "react-icons/ai";
 import { Fade } from "react-awesome-reveal";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
+import BackToTop from "../components/BackToTop";
 
 
 function Lectures () {
@@ -175,6 +176,7 @@ function Lectures () {
                         <h3>There are C and Java Variants in Python</h3>
                         <p>Python offers variations for the C and Java programming languages, despite being a self-contained programming language. The C derivative, known as CPython,Jython is Python’s Java implementation.</p>
                     </div>
+            <BackToTop/>
             <Footer/>
             </div>
         </>

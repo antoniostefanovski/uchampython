@@ -10,6 +10,7 @@ import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import { Dialog, DialogTitle, DialogContent, DialogActions, Button } from '@material-ui/core';
 import { HashLink } from 'react-router-hash-link';
+import BackToTop from "../components/BackToTop";
 
 function Home () {
 
@@ -276,6 +277,7 @@ function Home () {
                     </Dialog>
                 )}
             </div>
+            <BackToTop/>
             <Footer/>
         </>
     )
