@@ -142,6 +142,19 @@ button:hover {
     background-color: white;
 }
 
+.dialog-title {
+    color: #0a4c80;
+    font-weight: 900;
+}
+
+.dialog-modal {
+    background: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.8));
+}
+
+.dialog-link {
+    color: red;
+}
+
 
 @media screen and (max-width: 770px) {
     .nav-bar-container {

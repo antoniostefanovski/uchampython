@@ -5,6 +5,8 @@ import { useParams } from 'react-router';
 import '../styles/LectureCSS.css';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
+import { styled } from '@mui/material/styles';
+import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
 
 const lectureDetailsList = [
     {
@@ -74,6 +76,17 @@ const lectureDetailsList = [
     },
 ]
 
+const LightTooltip = styled(({ className, ...props }) => (
+    <Tooltip {...props} classes={{ popper: className }} />
+  ))(({ theme }) => ({
+    [`& .${tooltipClasses.tooltip}`]: {
+      backgroundColor: theme.palette.common.white,
+      color: 'rgba(0, 0, 0, 0.87)',
+      boxShadow: theme.shadows[1],
+      fontSize: 11,
+    },
+  }));
+
 function Lecture() {
 
     const [state, setState] = useState({});
@@ -93,7 +106,7 @@ function Lecture() {
         <>
             <div className="lecture-container">
                 <div className="lecture-menu">
-                    <h3><Link to={"/Lectures"}><span><MdOutlineKeyboardReturn/></span></Link> <Link to={"/"}><span><AiFillHome/></span></Link></h3>
+                    <h3><Link to={"/Lectures"}><LightTooltip title="Врати се на Предавања"><span><MdOutlineKeyboardReturn/></span></LightTooltip></Link> <Link to={"/"}><LightTooltip title="Почетна"><span><AiFillHome/></span></LightTooltip></Link></h3>
                 </div>
                  <div className='lecture-info'>
                     <h1>Предавање: <span>{state.lectureDetails.name}</span></h1>
