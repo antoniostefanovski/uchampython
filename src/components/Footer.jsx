@@ -27,7 +27,7 @@ function Footer () {
                         <h4>Курс</h4>
                         <ul className="footer-nav-links">
                             <li>
-                                <HashLink to={'/Lectures#'} className="link">Скокни на лекции</HashLink>
+                                <HashLink to={'/Lectures#'} className="link">Предавања</HashLink>
                             </li>
                             <li>
                                 <HashLink to={'/Lecture/0'}>Како да инсталирам PyCharm?</HashLink>
